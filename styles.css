@@ -131,7 +131,7 @@ div .left{
  	height: 15vh;
  	overflow: hidden;
  	transform: rotate(720deg);
- 	background-image: url(../images/hao_hao.jpg);
+ 	background-image: url(hao_hao.jpg);
  	background-size: cover;
  	margin-left: 50%;
  	color: #FFF;
