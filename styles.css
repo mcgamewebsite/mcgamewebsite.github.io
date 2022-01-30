@@ -1,0 +1,139 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	height: 100vh;
+}
+div.nav {
+	display: block;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background:linear-gradient(#333 10px,#AAAAAA);
+border: solid #000000;
+	border-width: 2px 0;
+}
+nav {
+	display: flex;
+ 	width: 80%;
+ 	
+ 	align-content: center;
+ 	align-items: center;
+ 	margin: auto;
+}
+nav > a{
+	margin: auto;
+	text-align: center;
+	width: 20%;
+	border: solid #000000;
+	border-width: 0 1px 0 1px;
+	list-style: none;
+	image-rendering: none;
+	padding: 10px 50px;
+	background: inherit;
+	text-decoration: none;
+}
+nav a:hover{
+	background: linear-gradient(#333 10px,#FFF);
+}
+nav a:active{
+	background: linear-gradient(#333 ,#FFF);
+	opacity: 1;
+}
+nav a li:active{
+	opacity: 0.8;
+}
+nav a li  {
+	color: #FFF;
+	font-family: Arial,Times,serif,sans-serif;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 3px 3px #000000;
+
+}
+
+/*div.btn {
+	position: static;
+	margin-top: 62px;
+	margin-left: 20px;
+	display: block;
+	width: 50px;
+	height: 50px;
+	background: #FFFFFF;
+	border: 2px solid #EEEEEE;
+	border-radius: 50%;
+    align-content: center;
+    align-items: center;
+}
+div.btn div.circle {
+	margin: 8px 10px;
+	border: 2px solid #EEEEEE;
+	border-radius: 50%;
+}
+div.btn:hover{
+	background: #CCCCCC;
+}*/
+div .left{
+	margin-top: 42px;
+	display: inline-block;
+	background: #DDDDDD;
+	width: 20%;
+	height: 100vh;
+	border: 0px solid #000;
+	border-right-width: 5px;
+}
+.left img {
+	width: 70%;
+	display: block;
+	margin: 50px auto;
+	border: 5px solid #AAA;
+	border-radius: 50%;
+}
+
+.left .link-to{
+	display: block;
+	color: #333;
+	text-decoration: none;
+	width: 100%;
+	border: 0 solid #321;
+	border-top-width: 2px;
+	padding: 10px 0;
+	list-style: none;
+}
+.left a.link-to:last-child {
+	border-bottom-width: 2px;
+}
+.left ul{
+	padding: 0;
+	overflow: hidden;
+}
+.left .link-to:hover {
+ 	background-color: #EEE;
+}
+.left .link-to li{
+	display: inline;
+	text-transform: capitalize;
+}
+.left .link-to div.squ{
+	display: inline-block;
+	background-color: #666;
+	width: 5px;
+	height: 5px;
+	margin: 2px 5px;
+}
+.left .hao_han {
+	transition: width 7s, margin 7s, height 4s,background 2s,transform 4s;
+ 	overflow: visible;
+}
+.left .hao_han:hover {
+ 	width: 0;
+ 	height: 15vh;
+ 	overflow: hidden;
+ 	transform: rotate(720deg);
+ 	background-image: url(../images/hao_hao.jpg);
+ 	background-size: cover;
+ 	margin-left: 50%;
+ 	color: #FFF;
+ 	/*transition: width 2s, margin 2s, height 2s,background 2s;*/
+}
